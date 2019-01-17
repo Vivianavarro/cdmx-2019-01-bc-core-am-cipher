@@ -1,17 +1,9 @@
 //Eventos //
+let botone= document.getElementById("cifrar");
 
-const desplazamiento= document.getElementById("offsetsaltos");
-const mensajeUsuario=    document.getElementById("datosPersonales");
-
-document.getElementById("cifrar").addEventListener("click",()=>{
-
-mensajeUsuario.value
-
-desplazamiento.value
-
-window.cipher.enconde(mensajeUsuario,desplazamiento)
-
-
+botone.addEventListener("click", () => {
+const desplazamiento = document.getElementById("offsetsaltos").value;
+const mensajeUsuario = document.getElementById("datosPersonales").value;
+let ciframiento= window.cipher.encode(desplazamiento, mensajeUsuario);
+document.getElementById("codigo").innerHTML = ciframiento;
 })
-
-
