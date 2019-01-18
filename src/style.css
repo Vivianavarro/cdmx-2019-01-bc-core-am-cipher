@@ -1,24 +1,68 @@
 *{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     font-weight: lighter;
 }
-
-#root{
-    background-color:#0F91D1  ; 
-    color: white;
-    height: 100px;
+h1{
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bold;
+    
+  
+}
+body{
+    background:url("../fondito/fondito.jpg");
+    background-position: center;
+    
+}
+p{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    
 }
     
-textarea{
+.eligeNumero{
+    color:#20ADF3;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
+.textarea{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-content: center;
-    background-size: 50%;
-    background-repeat:repeat-y, repeat;
-    background-position: center;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .infogob{
-  color: grey;
+  color:black;
   font-weight: bold;
+}
+
+input{
+
+  background-color: #20ADF3   ;
+  border: 1px;
+  color: whitesmoke;
+  padding: 16px 32px;
+  margin: 2px 1px;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 35px 35px 35px 35px;
+
+}
+
+button{
+
+    background-color: #20ADF3  ;
+    border: 1px;
+    color: whitesmoke;
+    padding: 16px 32px;
+    margin: 2px 1px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 35px 35px 35px 35px;
+}
+footer{
+    color: white;
 }

@@ -8,69 +8,47 @@
 </head>
 
 <body>
-  <div id="root">
-    <h1>ÓBICE</h1>
-    <h2>Codifica la información personal de tus clientes o empleados</h1>
-  </div>
+  <h1>ÓBICE</h1>
+  <h2>Codifica la información personal de tus clientes o empleados</h2>
 
-  <div>
-    <h3>¡Manténlos protegidos!</h3>
-    <h4>Los datos personales son toda aquella información que se relaciona con nuestra persona y que nos hace identificables.</h4>
-  </div>
-
-
-  
   <form>
-<div class="instruccionOffset">
-  Elige número de desplazamiento <input type="number" id="offsetsaltos" min="1" max="26">
-</div>
-
-  <br>
-  <br>
-  
-                  <!-- <input type="text" id="datosPersonales" placeholder="Escribe aquí">-->
-   
-  <textarea  id="datosPersonales" cols="50" rows="5" placeholder="Escribe aquí"></textarea>
-    <p id="codigo">Tu resultado es:</p> 
+    <div class="eligeNumero">Elige número de desplazamiento</div>
     <br>
-    
-                   <!--<input type="text" id="codigo" placeholder="Resultado">-->
+    <input type="number" placeholder="#" id="offsetsaltos" min="2" max="25">
+    <br>
+    <br>
+    <textarea id="datosPersonales" cols="60" rows="10" placeholder="Escribe aquí"></textarea>
+    <p id="codigo">Tu resultado es: </p>
 
+    <button type="submit" id="cifrar"> Codificar </button>
+    <input type="reset" value="Limpiar">
+    <button type="submit" id="descifrar">Decodificar</button>
 
-                
-<style>
-  button{
-    background-color: #0F91D1   ;
-  border: 1px;
-  color: white;
-  padding: 16px 32px;
-  margin: 2px 1px;
-  cursor: pointer;
-  font-size: 25px;
-  }
-input[type=button], input[type=reset], input[type=submit]{
-  background-color: #0F91D1    ;
-  border: 1px;
-  color: white;
-  padding: 16px 32px;
-  margin: 2px 1px;
-  cursor: pointer;
-  font-size: 25px;
-}
-</style>
-  
-  <button type="submit" id="cifrar"> Codificar </button>
-  <input type="reset" value="Limpiar">
-  <input type="submit" value="Decodificar">
-  <input type="submit" value="Compartir">
-</form>
-
+  </form>
   <br>
-  <footer> <a href="http://www.infodf.org.mx/index.php/protege-tus-datos-personales/%C2%BFqu%C3%A9-son-los-datos-personales.html" class="infogob">Los datos personales </a>siempre son tuyos, pero a veces es necesario que los proporciones a otros para hacer un trámite, comprar un producto o contratar un servicio. De manera común, tanto particulares (médicos, bancos, hoteles, empresas de telefonía móvil, aseguradoras, etc.) como Sujetos Obligados (oficinas de tránsito, catastro, escuelas y hospitales públicos, tribunales, procuradurías, entre otros) recaban nuestros datos.</footer>
-<br>
-   <img src="https://blog.mailrelay.com/wp-content/uploads/2016/09/ley-de-proteccion-de-datos.png" alt="ladrón">
+  <footer><a href="http://www.infodf.org.mx/index.php/protege-tus-datos-personales/%C2%BFqu%C3%A9-son-los-datos-personales.html"
+      class="infogob">Los datos personales </a>siempre son tuyos, pero a veces es necesario que los proporciones a
+    otros para hacer un trámite, comprar un producto o contratar un servicio. Algunos de estos pueden ser: Edad,
+    Domicilio,
+    Número telefónico,
+    Correo electrónico personal,
+    Trayectoria académica, laboral o profesional,
+    Patrimonio,
+    Número de seguridad social,
+    CURP. <br>
+    <br>
+    También describen aspectos más sensibles o delicados, como:
+    Nuestra forma de pensar,
+    Estado de salud,
+    Origen étnico y racial,
+    Características físicas,
+    Ideología y opiniones políticas,
+    Creencias o convicciones religiosas o filosóficas,
+    Preferencias sexuales, entre otros.
+  </footer>
+  <br>
+</body>
+<script src="cipher.js"></script>
+<script src="index.js"></script>
 
-  </body>
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
-</html> 
+</html>
