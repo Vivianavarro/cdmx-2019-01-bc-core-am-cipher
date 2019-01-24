@@ -1,4 +1,3 @@
-//Eventos //
 let botone = document.getElementById("cifrar");
 
 botone.addEventListener("click", () => {
