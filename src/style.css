@@ -2,22 +2,28 @@
     text-align: center;
     font-weight: lighter;
     font-family: 'Questrial', sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
+
 body{
+
     background:url("../fondito/fondito.jpg");
-    background-position: center;
+    background-size:inherit;
+    background-repeat: no-repeat;
+
 
 }
     
 h1{
-    font-size: 170%;
+    color: #252525;
+    font-size: 150%;
 }
 
 p{
-    color:black;
+    color:#252525;
     font-size: 25px;
   
-    
 }
     
 .eligeNumero{
@@ -27,9 +33,10 @@ p{
 }
 
 
-.textarea{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 15px 15px 15px 15px;
+textarea{
+    
+    border-radius: 20px;
+
 }
 
 .infogob{
@@ -63,6 +70,16 @@ button{
     border-radius: 35px 35px 35px 35px;
 }
 footer{
-    color: white;
+    color: #252525;
     font-size: 18px;
 }
+.foo-ter{
+    margin: 7% 2% 2% 2%;
+}
+
+@media screen and (max-width: 500px) {
+ body{
+    background-size: auto;
+ }  
+  
+} 

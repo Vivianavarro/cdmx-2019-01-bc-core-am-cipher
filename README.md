@@ -1,6 +1,6 @@
 # ÓBICE
 
-Óbice es una aplicación web que funciona como herramienta para que las pequeñas y medianas empresas tengan un filtro de seguridad al guardar información de sus clientes, usuarios o de su mismo personal. 
+Óbice es un sitio web que funciona como herramienta para que las pequeñas y medianas empresas tengan un filtro de seguridad al guardar información de sus clientes, usuarios o de su mismo personal. 
 
 ¿Cómo funciona?
 Óbice está construida con la técnica de [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar).
